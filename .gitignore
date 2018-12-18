@@ -1,0 +1,46 @@
+# xcode noise .gitignore
+
+*.pbxuser
+xcuserdata/
+*.xccheckout
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+Pods
+Podfile.lock
+
+.svn
+
+# osx noise
+.DS_Store
+profile
+*.apk
+*.ipa
+*.tmp
+*.iml
+Thumbs.db
+~
+
+# AppCode noise
+.idea/
+.gradle/
+/captures
+.externalNativeBuild
+
+# src noise .gitignore
+
+CVS
+.svn
+
+*.o
+*.pyc
+
+Output
+build.xml
+bin
+target
+
+.settings
+.classpath
+.mymetadata
+.project
