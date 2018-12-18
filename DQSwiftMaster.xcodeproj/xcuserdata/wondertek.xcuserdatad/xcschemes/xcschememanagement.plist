@@ -7,17 +7,17 @@
 		<key>DQModule.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>26</integer>
 		</dict>
 		<key>DQSwiftMaster.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>24</integer>
 		</dict>
 		<key>DesignPatterns.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>25</integer>
 		</dict>
 	</dict>
 </dict>

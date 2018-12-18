@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34CCD33CAA08AD770150C9E5 /* Pods_DQSwiftMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE7F19BE5B1244DF64B21E0 /* Pods_DQSwiftMaster.framework */; };
 		EE543F8721C8C464000C5EE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543F8621C8C464000C5EE3 /* AppDelegate.swift */; };
 		EE543F8921C8C464000C5EE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543F8821C8C464000C5EE3 /* ViewController.swift */; };
 		EE543F8C21C8C464000C5EE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE543F8A21C8C464000C5EE3 /* Main.storyboard */; };
@@ -22,9 +23,13 @@
 		EE543FDA21C8CDB2000C5EE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE543FD821C8CDB2000C5EE3 /* Main.storyboard */; };
 		EE543FDC21C8CDB3000C5EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE543FDB21C8CDB3000C5EE3 /* Assets.xcassets */; };
 		EE543FDF21C8CDB3000C5EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE543FDD21C8CDB3000C5EE3 /* LaunchScreen.storyboard */; };
+		EE54400721C8D5FF000C5EE3 /* UIimage+DQAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54400621C8D5FF000C5EE3 /* UIimage+DQAsset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		767BBF72946253D1150C7B6F /* Pods-DQSwiftMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQSwiftMaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQSwiftMaster/Pods-DQSwiftMaster.release.xcconfig"; sourceTree = "<group>"; };
+		9E154AE314F16F270AD209A2 /* Pods-DQSwiftMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQSwiftMaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQSwiftMaster/Pods-DQSwiftMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		BEE7F19BE5B1244DF64B21E0 /* Pods_DQSwiftMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DQSwiftMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE543F8321C8C464000C5EE3 /* DQSwiftMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DQSwiftMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE543F8621C8C464000C5EE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE543F8821C8C464000C5EE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +51,7 @@
 		EE543FDB21C8CDB3000C5EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE543FDE21C8CDB3000C5EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE543FE021C8CDB3000C5EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE54400621C8D5FF000C5EE3 /* UIimage+DQAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIimage+DQAsset.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34CCD33CAA08AD770150C9E5 /* Pods_DQSwiftMaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C78C895643D2979A5BC40B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E154AE314F16F270AD209A2 /* Pods-DQSwiftMaster.debug.xcconfig */,
+				767BBF72946253D1150C7B6F /* Pods-DQSwiftMaster.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94BAE81EDD2F47E55CA3498C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEE7F19BE5B1244DF64B21E0 /* Pods_DQSwiftMaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE543F7A21C8C464000C5EE3 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +104,8 @@
 				EE543FBD21C8CD59000C5EE3 /* DesignPatterns */,
 				EE543FD321C8CDB2000C5EE3 /* DQModule */,
 				EE543F8421C8C464000C5EE3 /* Products */,
+				7C78C895643D2979A5BC40B1 /* Pods */,
+				94BAE81EDD2F47E55CA3498C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +147,7 @@
 		EE543F9B21C8CBBB000C5EE3 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EE54400621C8D5FF000C5EE3 /* UIimage+DQAsset.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -379,9 +406,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE543F9521C8C466000C5EE3 /* Build configuration list for PBXNativeTarget "DQSwiftMaster" */;
 			buildPhases = (
+				7FE84A29DFFFA35373196E0F /* [CP] Check Pods Manifest.lock */,
 				EE543F7F21C8C464000C5EE3 /* Sources */,
 				EE543F8021C8C464000C5EE3 /* Frameworks */,
 				EE543F8121C8C464000C5EE3 /* Resources */,
+				9EBE9DA45C6BB6E04C4FE887 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -500,11 +529,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7FE84A29DFFFA35373196E0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DQSwiftMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EBE9DA45C6BB6E04C4FE887 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DQSwiftMaster/Pods-DQSwiftMaster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cent/Cent.framework",
+				"${BUILT_PRODUCTS_DIR}/Dollar/Dollar.framework",
+				"${BUILT_PRODUCTS_DIR}/INTULocationManager/INTULocationManager.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TSVoiceConverter/TSVoiceConverter.framework",
+				"${BUILT_PRODUCTS_DIR}/TimedSilver/TimedSilver.framework",
+				"${BUILT_PRODUCTS_DIR}/UIColor_Hex_Swift/UIColor_Hex_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cent.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dollar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/INTULocationManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TSVoiceConverter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TimedSilver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_Hex_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLActionController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DQSwiftMaster/Pods-DQSwiftMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE543F7F21C8C464000C5EE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE54400721C8D5FF000C5EE3 /* UIimage+DQAsset.swift in Sources */,
 				EE543F8921C8C464000C5EE3 /* ViewController.swift in Sources */,
 				EE543F8721C8C464000C5EE3 /* AppDelegate.swift in Sources */,
 			);
@@ -700,10 +819,13 @@
 		};
 		EE543F9621C8C466000C5EE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E154AE314F16F270AD209A2 /* Pods-DQSwiftMaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XYJ7TUFP3;
 				INFOPLIST_FILE = DQSwiftMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -717,10 +839,13 @@
 		};
 		EE543F9721C8C466000C5EE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767BBF72946253D1150C7B6F /* Pods-DQSwiftMaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XYJ7TUFP3;
 				INFOPLIST_FILE = DQSwiftMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
